@@ -64,3 +64,58 @@ a {
     width: 440px;
     height: 414px;
 }
+
+/* logo design */
+.logo-add {
+    margin: 50px 100px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logos img {
+    margin: 30px;
+}
+
+hr {
+    border: 2px solid rgba(168, 165, 165, 0.942);
+    border-radius: 80%;
+}
+
+/* popular collections style */
+
+.popular-collections {
+    margin: 50px 100px;
+
+}
+
+.collections {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.collection {
+    width: 329px;
+    height: 476px;
+}
+
+.fa-star {
+    color: goldenrod;
+}
+
+/* see more button design */
+
+.see-more i,
+a {
+    color: #E02C6D;
+    margin: 3px;
+}
+
+button {
+    border: none;
+    background-color: white;
+}
