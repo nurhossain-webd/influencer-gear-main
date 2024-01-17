@@ -145,9 +145,14 @@ footer {
     justify-content: center;
 }
 
-footer p,
-i,
-h2 {
+.footer-text,
+.footer-icon {
     color: white;
     margin-top: 0%;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
